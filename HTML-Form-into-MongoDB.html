@@ -1,13 +1,12 @@
 <head>
-  <title>HTML-Form-into-MongoDB</title>
+	<meta charset="UTF-8" />
+	<title>healthyGeek</title>
 </head>
 
 <body>
-  {{> hello}}
+	<form>
+		  Your Height：<input type="text" name="yourHeight" placeholder="Input you height (cm)"><br>
+		  Your Weight：<input type="text" name="yourWeight" placeholder="Input you weight (kgs)"><br>
+		  			   <input type="submit" name="computeBMI" value="Compute BMI">
+	</form>
 </body>
-
-<template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
-</template>
